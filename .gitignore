@@ -1,0 +1,39 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Environment example only - keep actual .env in repo
+.env.example
+.env.example*
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs/
+*.log
+
+# Build output
+dist/
+build/
+.vite/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+*.swp
+*.swo
+
+# Dependency directories
+client/.vite/
+server/.vite/
+
+# Misc
+coverage/
+*.tmp
+*.temp
+*.bak
